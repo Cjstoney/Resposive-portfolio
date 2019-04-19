@@ -238,9 +238,14 @@ input[type=submit]{
         float:none;
         clear:both;
     }
-    #portfolio-main-container{
-        height:600px;
+
+    .clearfix::after { 
+        content: " ";
+        display: block; 
+        height: 0; 
+        clear: both;
     }
+    
 }
 
 
@@ -280,4 +285,10 @@ input[type=submit]{
     #portfolio-main-container{
         height:800px;
     }
+    .clearfix::after { 
+        content: " ";
+        display: block; 
+        height: 0; 
+        clear: both;
+     }
 }
