@@ -278,7 +278,9 @@ input[type=submit]{
         height:90px;
     }
     nav{
-        float:left;
+        float:none;
+        text-align: center;
+        margin:auto;
     }
     .item-container{
         margin:0 auto;
@@ -292,4 +294,13 @@ input[type=submit]{
         height: 0; 
         clear: both;
      }
+     .work{
+         float:none;
+         margin:auto;
+     }
+
+     /* need to clear this somehow */
+     .work:nth-child(even) {
+        margin-right:40px;
+    }
 }
